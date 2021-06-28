@@ -1,0 +1,134 @@
+body, p {
+  margin: 0; }
+
+.button {
+  background-color: #FAFAFA;
+  border: 1px solid #686963;
+  border-radius: 30px;
+  color: #91918D;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase; }
+  .button--big {
+    font-size: 50px; }
+  .button--large {
+    font-size: 18px; }
+  .button--big, .button--large {
+    font-weight: 700;
+    padding: 20px 100px; }
+  .button--medium, .button--small {
+    font-size: 18px; }
+  .button--medium, .button--small {
+    padding: 10px 20px; }
+
+.section-wrapper, .header, .banner, .info, .staff, .staff-members, .contact, .footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  width: 80%; }
+
+.header {
+  background-color: #FFF;
+  display: table;
+  height: 60px; }
+  .header__logo-wrapper {
+    display: table-cell;
+    vertical-align: middle; }
+  .header__logo {
+    height: auto;
+    margin: 0 0 0 70px;
+    width: 200px; }
+
+.banner {
+  background-color: #E56353;
+  color: #FFF;
+  display: table;
+  font-size: 50px;
+  padding: 150px 0;
+  text-align: center; }
+  .banner__title {
+    display: table-cell;
+    font-weight: 200;
+    vertical-align: middle; }
+    .banner__title--highlighted-text {
+      font-weight: 700;
+      text-transform: uppercase; }
+
+.info {
+  background-color: #91918D;
+  color: #FFF;
+  padding: 70px 0 50px;
+  text-align: center; }
+  .info--light {
+    background-color: #FFF;
+    color: #686963; }
+  .info__banner {
+    height: auto;
+    width: 80%; }
+  .info__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px 0 0; }
+  .info__text {
+    margin: 30px 20% 0;
+    text-align: left; }
+
+.staff {
+  background-color: #E56353;
+  color: #FFF;
+  display: table;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 50px 0;
+  text-align: center;
+  text-transform: uppercase; }
+  .staff__text {
+    display: table-cell;
+    vertical-align: middle; }
+
+.staff-members {
+  background-color: #FFF;
+  color: #686963;
+  padding: 70px 0 80px;
+  text-align: center; }
+  .staff-members__box {
+    margin: 0 auto 40px;
+    width: 60%; }
+  .staff-members__box:last-child {
+    margin: 0 auto; }
+  .staff-members__avatar {
+    height: auto;
+    width: 300px; }
+  .staff-members__name {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0 0; }
+  .staff-members__bio {
+    line-height: 1.5;
+    margin: 20px 0 0;
+    text-align: left; }
+
+.contact {
+  background-color: #E56353;
+  color: #FFF;
+  display: table;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 50px 0;
+  text-align: center; }
+  .contact__title {
+    display: table-cell;
+    line-height: 1.5;
+    vertical-align: middle; }
+
+.footer {
+  background-color: #686963;
+  display: table;
+  height: 200px;
+  text-align: center; }
+  .footer__logo-wrapper {
+    display: table-cell;
+    vertical-align: middle; }
+  .footer__logo {
+    height: auto;
+    width: 150px; }

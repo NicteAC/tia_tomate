@@ -1,0 +1,33 @@
+.button {
+  background-color: $snow;
+  border: 1px solid $granite-gray;
+  border-radius: 30px;
+  color: $taupe-gray;
+  cursor: pointer;
+  font-family: $primary-font;
+  text-transform: uppercase;
+
+  &--big {
+    font-size: $font-size-large;
+  }
+
+  &--large {
+    font-size: $font-size-medium;
+  }
+
+  &--big,
+  &--large {
+    font-weight: $primary-font-bold;
+    padding: 20px 100px;
+  }
+
+  &--medium,
+  &--small {
+    font-size: $font-size-medium;
+  }
+
+  &--medium,
+  &--small {
+    padding: 10px 20px;
+  }
+}
