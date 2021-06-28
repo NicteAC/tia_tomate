@@ -1,0 +1,23 @@
+{
+  "name": "tia-tomate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicteAC/tia-tomate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicteAC/tia-tomate/issues"
+  },
+  "homepage": "https://github.com/NicteAC/tia-tomate#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
